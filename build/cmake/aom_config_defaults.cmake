@@ -184,28 +184,28 @@ set_aom_option_var(ENABLE_WERROR "Converts warnings to errors at compile time."
                    OFF)
 
 # ARM assembly/intrinsics flags.
-set_aom_option_var(ENABLE_NEON "Enables NEON optimizations on ARM targets." ON)
+set_aom_option_var(ENABLE_NEON "Enables NEON optimizations on ARM targets." OFF)
 
 # VSX intrinsics flags.
 set_aom_option_var(ENABLE_VSX "Enables VSX optimizations on PowerPC targets."
-                   ON)
+                   OFF)
 
 # x86/x86_64 assembly/intrinsics flags.
 set_aom_option_var(ENABLE_MMX "Enables MMX optimizations on x86/x86_64 targets."
-                   ON)
+                   OFF)
 set_aom_option_var(ENABLE_SSE "Enables SSE optimizations on x86/x86_64 targets."
-                   ON)
+                   OFF)
 set_aom_option_var(ENABLE_SSE2
-                   "Enables SSE2 optimizations on x86/x86_64 targets." ON)
+                   "Enables SSE2 optimizations on x86/x86_64 targets." OFF)
 set_aom_option_var(ENABLE_SSE3
-                   "Enables SSE3 optimizations on x86/x86_64 targets." ON)
+                   "Enables SSE3 optimizations on x86/x86_64 targets." OFF)
 set_aom_option_var(ENABLE_SSSE3
-                   "Enables SSSE3 optimizations on x86/x86_64 targets." ON)
+                   "Enables SSSE3 optimizations on x86/x86_64 targets." OFF)
 set_aom_option_var(ENABLE_SSE4_1
-                   "Enables SSE4_1 optimizations on x86/x86_64 targets." ON)
+                   "Enables SSE4_1 optimizations on x86/x86_64 targets." OFF)
 set_aom_option_var(ENABLE_SSE4_2
-                   "Enables SSE4_2 optimizations on x86/x86_64 targets." ON)
+                   "Enables SSE4_2 optimizations on x86/x86_64 targets." OFF)
 set_aom_option_var(ENABLE_AVX "Enables AVX optimizations on x86/x86_64 targets."
-                   ON)
+                   OFF)
 set_aom_option_var(ENABLE_AVX2
-                   "Enables AVX2 optimizations on x86/x86_64 targets." ON)
+                   "Enables AVX2 optimizations on x86/x86_64 targets." OFF)
